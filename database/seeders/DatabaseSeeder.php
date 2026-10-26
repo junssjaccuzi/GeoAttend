@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         // 1. System Settings
-        SystemSetting::set('campus_name', 'Universitas Teknologi Nusantara', 'Nama Kampus / Perguruan Tinggi');
+        SystemSetting::set('campus_name', 'Universitas Perjuangan Tasikmalaya', 'Nama Kampus / Perguruan Tinggi');
         SystemSetting::set('max_gps_accuracy', '50', 'Maksimal toleransi akurasi GPS perangkat (meter)');
         SystemSetting::set('late_threshold_minutes', '15', 'Batas toleransi menit keterlambatan mahasiswa');
         SystemSetting::set('default_geofence_radius', '100', 'Radius geofence bawaan kelas (meter)');
